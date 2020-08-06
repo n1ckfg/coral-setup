@@ -32,3 +32,10 @@ pip3 install numpy Pillow
 # https://coral.ai/docs/edgetpu/api-intro/#install-the-library-and-examples
 sudo apt-get install python3-edgetpu edgetpu-examples
 
+# https://github.com/f0cal/google-coral/issues/18
+# https://stackoverflow.com/questions/59994060/cant-install-scipy-to-raspberry-pi-4-raspbian
+sudo apt-get install python3-dev python3-scipy 
+
+# https://stackoverflow.com/questions/47038934/python3-modulenotfounderror-no-module-named-opengl?rq=1
+pip3 install pyopengl
+
