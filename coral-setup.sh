@@ -28,3 +28,7 @@ PYTHON_VERSION=https://dl.google.com/coral/python/tflite_runtime-2.1.0.post1-cp3
 
 pip3 install $PYTHON_VERSION
 pip3 install numpy Pillow
+
+# https://coral.ai/docs/edgetpu/api-intro/#install-the-library-and-examples
+sudo apt-get install python3-edgetpu edgetpu-examples
+
